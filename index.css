@@ -1,0 +1,108 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("blackjackbackground.jpg");
+    background-size: cover;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #0C7C17;
+    width: 150px;
+    background: goldenrod;
+    box-shadow: inset 0 0 0 0 #A2280E;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    transition: 0.5s;
+    outline: none;
+}
+
+button:hover {
+    background: #40AD44;
+    letter-spacing: 0.08em;
+    box-shadow: 0 0 20px #40AD44;
+}
+
+.main {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IGicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #cd486b;
+    transition: color 0.2s;
+}
+
+.IGicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #75281C;
+    transition: color 0.3s;
+}
+
+.GHicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #4A4645;
+}
+
+.GHicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+}
+
+.LIicon {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #5985C4;
+}
+
+.LIicon:hover {
+    width: auto;
+    height: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: none;
+    color: #0072b1;
+}
